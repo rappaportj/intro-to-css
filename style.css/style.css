@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #7251B5;
+  }
+  
+
+  h1, h2, h3 {
+    margin-bottom: 0;
+  }
+  
+  /* 3. Select the id company-name */
+  #company-name {
+    font-size: 1.5rem;
+  }
+  
+  /* 4. Select header and footer */
+  header, footer {
+    background-color: #000;
+    color: #DEC9E9;
+  }
+  
+  /* 5. Select the class wrapper */
+  .wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  /* 6. Select both list types */
+  ul, ol {
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* 7. Use descendant selector to select the links within the navigation */
+  header nav a {
+    color: #DEC9E9;
+    text-decoration: none;
+  }
+  
+  /* 8. Use an adjacent selector to target the section immediately beside the section with id #intro */
+  #intro + section {
+    background-color: #000;
+    color: #DEC9E9;
+  }
+  
+  /* 9. Use a child selector to target the img tag directly within the article tags */
+  article > img {
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+  }
+  
+  /* 10. Select every even-numbered li within the ordered list */
+  ol li:nth-child(even) {
+    color: #dc33dc;
+  }
+  
+  /* 11. Use a child selector to target the img tag directly within the main element */
+  main > img {
+    width: 100%;
+    }
